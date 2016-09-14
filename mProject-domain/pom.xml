@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>mProject</artifactId>
+        <groupId>com.kangzz.mProject</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>mProject-domain</artifactId>
+    <version>${com.mProject.domain.version}</version>
+    <packaging>jar</packaging>
+    <name>mProject-domain</name>
+    <url>http://maven.apache.org</url>
+
+    <dependencies>
+        <!-- 内部依赖开始 -->
+        <dependency>
+            <groupId>com.kangzz.mProject</groupId>
+            <artifactId>mProject-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kangzz.mProject</groupId>
+            <artifactId>mProject-dao</artifactId>
+        </dependency>
+        <!-- 内部依赖结束 -->
+
+
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+
+
+</project>

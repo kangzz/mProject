@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.kangzz.mProject</groupId>
+    <artifactId>mProject</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+
+
+
+    <properties>
+        <org.spring.version>3.2.12.RELEASE</org.spring.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <com.mProject.dao.version>1.0-SNAPSHOT</com.mProject.dao.version>
+        <com.mProject.domain.version>1.0-SNAPSHOT</com.mProject.domain.version>
+        <com.mProject.model.version>1.0-SNAPSHOT</com.mProject.model.version>
+        <com.mProject.service.version>1.0-SNAPSHOT</com.mProject.service.version>
+        <com.mProject.web.version>1.0-SNAPSHOT</com.mProject.web.version>
+    </properties>
+
+
+    <modules>
+        <module>mProject-dao</module>
+        <module>mProject-domain</module>
+        <module>mProject-model</module>
+        <module>mProject-service</module>
+        <module>mProject-service-impl</module>
+        <module>mProject-web</module>
+    </modules>
+
+
+</project>
