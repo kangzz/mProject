@@ -6,7 +6,7 @@
 
     <groupId>com.kangzz.mProject</groupId>
     <artifactId>mProject</artifactId>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -21,6 +21,44 @@
         <com.mProject.service.version>1.0-SNAPSHOT</com.mProject.service.version>
         <com.mProject.web.version>1.0-SNAPSHOT</com.mProject.web.version>
     </properties>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.kangzz.mProject</groupId>
+                <artifactId>mProject-dao</artifactId>
+                <version>${com.mProject.dao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kangzz.mProject</groupId>
+                <artifactId>mProject-domain</artifactId>
+                <version>${com.mProject.domain.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kangzz.mProject</groupId>
+                <artifactId>mProject-model</artifactId>
+                <version>${com.mProject.model.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kangzz.mProject</groupId>
+                <artifactId>mProject-service</artifactId>
+                <version>${com.mProject.service.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kangzz.mProject</groupId>
+                <artifactId>mProject-service-impl</artifactId>
+                <version>${com.mProject.service.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kangzz.mProject</groupId>
+                <artifactId>mProject-web</artifactId>
+                <version>${com.mProject.web.version}</version>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
 
 
     <modules>
