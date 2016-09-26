@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.kangzz.common</groupId>
-    <artifactId>common</artifactId>
+    <groupId>com.kangzz.mProject</groupId>
+    <artifactId>scrat-common</artifactId>
 
 
 </project>

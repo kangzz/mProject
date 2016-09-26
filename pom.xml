@@ -68,7 +68,7 @@
         <module>mProject-service</module>
         <module>mProject-service-impl</module>
         <module>mProject-web</module>
-        <module>common</module>
+        <module>scrat-common</module>
     </modules>
 
 
